@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background: #444;
+    display: flex;
+    border-bottom: 2px solid yellow;
+}
+
+h1{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+
+h1 span{
+    color:lightblue;
+    display: block;
+    font-size: 25px ;
+}
+
+.contenedor{
+    display: flex;
+    margin: 20px 100px;
+    justify-content: center;
+    width: 1100px;
+    padding: 0 20px;
+    border: 1px solid red;
+
+}
+
+.consignas_detalle{
+    display: inline-block;
+    width: 500px; 
+}
+
+.consignas_detalle ul{
+    list-style: none;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.desarrollo{
+    padding: 0 20px;
+    width: 500px;
+    
+ /* border: 1px solid #444; */
+}
+
+@media (min-width: 768px){
+    .consignas_detalle{
+        width: 90%;
+    }
+}
